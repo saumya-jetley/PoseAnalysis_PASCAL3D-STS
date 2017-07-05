@@ -1,6 +1,5 @@
-% Version 1.000
 % Code written by Saumya Jetley
-% This code reads the .mat files for all the images in val and train set folders
+% This code reads the .mat files corresponding to all the images in val and train set folders
 % Writes the pose annotations to pose.mat and image names to list.txt files
 
 clear;

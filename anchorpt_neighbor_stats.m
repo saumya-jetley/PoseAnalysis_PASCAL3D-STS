@@ -1,3 +1,8 @@
+% Code written for Saumya Jetley
+% This code reads in the radial/learned/downsampled-binary representations of the val and train shape silhouettes
+% For each sample in the val set, 10 nearest neighbours in the train set are found
+% Their pose and category analysis is performed
+
 minind_an=[];
 stats_mat=[];
 stats_mat_classes=[];
@@ -8,6 +13,7 @@ mainpath = '/media/sjvision/DATASETDISK/ShapeDatasets_SyntheticSized/PASCAL3D+_r
 % val_data = load(strcat(mainpath,'learned_encodings/','50enc_val.txt'));
 val_data = load(strcat(mainpath,'radial_encodings/','rd50_val.txt'));
 % val_data = val_data.mappedX;
+
 % train_data = load(strcat(mainpath,'learned_encodings/','50enc_train.txt'));
 train_data = load(strcat(mainpath,'radial_encodings/','rd50_train.txt'));
 % train_data = train_data.mappedX;

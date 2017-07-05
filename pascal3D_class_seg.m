@@ -1,4 +1,5 @@
-% read in the mat-files 
+% Code written by Saumya Jetley
+% Confirm that all the files in the original data folders have been converted to mat format
 dirname = '/media/sjvision/DATASETDISK/ShapeDatasets_SyntheticSized/PASCAL3D+_release1.1/Images';
 folders = dir(strcat(dirname,'/*_pascal'));
 im_names = {};
